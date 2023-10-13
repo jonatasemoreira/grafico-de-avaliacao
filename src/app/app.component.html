@@ -1,0 +1,101 @@
+
+<main>
+  <!-- Head -->
+  <section id="head" class="head">
+
+    <h1 class="title-head">Avaliações</h1>
+
+    <div id="unidades" class="unidades">
+      <p>Unidades</p>
+      <select name="select" class="drop-unidades">
+        <option value="valor1" selected>NOVO ELDORADO</option>
+        <option value="valor2">SAVASSO</option>
+      </select>
+    </div>
+
+    <div id="profissionais" class="profissionais">
+      <p>Profissionais</p>
+      <select name="select" class="drop-profissionais">
+        <option value="valor1" selected>Natalisson</option>
+        <option value="valor2" >Cris</option>
+      </select>
+    </div>
+
+    <div id="periodo" class="periodo">
+      <p>Período</p>
+      <select name="select" class="drop-periodo">
+        <option value="valor1" selected>Este mês</option>
+        <option value="valor2">Este Ano</option>
+      </select>
+    </div>
+  </section>
+
+  <!-- Body -->
+  <section id="body" class="body">
+    <div class="graphic-descript">
+      <h1>99 Avaliações</h1>
+      <div id="graphic-avaliacao" class="graphic-avaliacao">
+        <nav>
+          <ul>
+            <li><a href="">5.0<i class="fa fa-star"></i></a></li>
+            <li><a href="">4.0<i class="fa fa-star"></i></a></li>
+            <li><a href="">3.0<i class="fa fa-star"></i></a></li>
+            <li><a href="">2.0<i class="fa fa-star"></i></a></li>
+            <li><a href="">1.0<i class="fa fa-star"></i></a></li>
+            <li class="nao-avaliaram"><a href="">Não avaliaram</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+      <div id="chart" class="graphic">
+        <apx-chart
+          [series]="chartOptions.series!"
+          [chart]="chartOptions.chart!"
+          [dataLabels]="chartOptions.dataLabels!"
+          [plotOptions]="chartOptions.plotOptions!"
+        ></apx-chart>
+      </div>
+    </section>
+
+  <!-- Footer -->
+  <section id="footer" class="footer">
+    <table>
+      <tr class="title-footer">
+        <td>Data</td>
+        <td>Contato</td>
+        <td>Avaliação</td>
+        <td>Comentário</td>
+        <td>Profissional</td>
+        <td>Serviço</td>
+        <td>Unidade</td>
+      </tr>
+      <tr>
+        <td>00/00/0000</td>
+        <td>João</td>
+        <td>1.0</td>
+        <td>Motivo 1</td>
+        <td>Cris</td>
+        <td>Corte de cabelo</td>
+        <td>NOVO ELDORADO</td>
+      </tr>
+      <tr>
+        <td>00/00/0000</td>
+        <td>Maria</td>
+        <td>1.0</td>
+        <td>Motivo 1</td>
+        <td>Natalisson</td>
+        <td>Corte de cabelo</td>
+        <td>NOVO ELDORADO</td>
+      </tr>
+      <tr>
+        <td>00/00/0000</td>
+        <td>PEDRO</td>
+        <td>1.0</td>
+        <td>Motivo 1</td>
+        <td>Cris</td>
+        <td>Corte de cabelo</td>
+        <td>SAVASSI</td>
+      </tr>
+    </table>
+  </section>
+</main>

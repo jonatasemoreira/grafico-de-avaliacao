@@ -1,0 +1,136 @@
+
+main {
+    max-width: 1178px!important;
+    margin: 0 auto;
+}
+.body {
+    width: 100%;
+    border: 1px solid silver;
+    border-radius: 10px;
+    min-height: 350px;
+    display: flex;
+}
+/*Head*/
+.head {
+    width: 100%;
+    min-height: 80px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 3.5rem;
+    padding: 0 auto;
+}
+.title-head {
+    position: absolute;
+    top: 20px;
+    left: 90px;
+}
+.unidade { 
+    border: none;
+}
+.unidades, 
+.profissionais, 
+.periodo {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+}
+.drop-unidades, 
+.drop-profissionais, 
+.drop-periodo {
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid silver;
+    text-align: center;
+    font-size: 18px;
+    background-color: white;
+    margin-right: 1rem;
+    outline: 0;
+}
+.drop-profissionais, 
+.drop-periodo {
+    background-color: #eff0f4;
+}
+.graphic-descript {
+    width: 300px;
+    height: 320px;
+    margin-left: 5%;
+    text-align: start;
+    padding: 1rem 0.5rem;
+}
+.graphic-descript h1 {
+    font-size: 18px;
+    margin-bottom: 0.5rem;
+}
+.graphic-descript nav ul li {
+    list-style-type: none;
+    width: 300px;
+    height: 45px;
+    border-top: 1px solid silver;
+}
+.graphic-descript nav ul li a {
+    text-decoration: none;
+    line-height: 45px;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+}
+.graphic {
+    padding: 1rem 0 0 1rem;
+    width: calc(90% - 300px);
+    min-height: 250px;
+}
+.graphic-avaliacao nav ul li i {
+    margin: 0.5rem;
+}
+.nao-avaliaram {
+    border-bottom: 1px solid silver;
+    padding-bottom: 5px;
+    width: 100%;
+    min-width: 300px;
+}
+/*Footer*/
+.footer {
+    width: 100%;
+    min-height: 100px;
+    margin: 1rem auto;
+    border: 1px solid silver;
+    border-top: none;
+    border-radius: 10px;
+}
+.footer table {
+    width: 100%;
+}
+.title-footer {
+    font-weight: bold;
+}
+.footer table tr td {
+    height: 40px;
+    text-align: start;
+    padding-left: 2.5rem;
+    border-top: 1px solid silver;
+}
+
+
+
+
+
+/**/
+ul li a:hover {
+    color: gold;
+}
+
+.nao-avaliaram a:hover {
+    color: initial;
+}
+.estrelas {
+    display: grid;
+    grid-template-columns: repeat(5, auto); /* Cria 5 colunas de largura automática */
+    gap: 10px; /* Adiciona um espaçamento entre as estrelas */
+    align-items: center; /* Alinha as estrelas verticalmente ao centro */
+  }
+  
+  .estrelas li {
+    display: inline; /* Exibe as estrelas em linha */
+  }
+  
